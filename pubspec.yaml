@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flame: ^1.37.0
   network_info_plus: ^8.2.0
+  flame_audio: ^2.12.1
 
 dev_dependencies:
   flutter_test:
@@ -89,3 +90,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter:
+  assets:
+    -assets/audio/
